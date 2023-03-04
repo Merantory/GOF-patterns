@@ -1,6 +1,6 @@
 package com.merantory.patterns;
 
-public class PrototypeApp
+public class Prototype
 {
     public static void main( String[] args )
     {
