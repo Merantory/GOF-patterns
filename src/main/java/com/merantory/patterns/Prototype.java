@@ -4,9 +4,9 @@ public class Prototype
 {
     public static void main( String[] args )
     {
-        User firstUser = new User("FirstUser", 20);
-        System.out.println(firstUser);
-        User copyUser = firstUser.copy();
+        User user = new User("FirstUser", 20);
+        System.out.println(user);
+        User copyUser = user.copy();
         System.out.println(copyUser);
     }
 }
